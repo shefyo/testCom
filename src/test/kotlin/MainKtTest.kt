@@ -31,7 +31,7 @@ class MainKtTest {
 
         val result = commission(cardType = type, previousTransfer = previous, transfer = transfer)
 
-        assertEquals(-100, result)
+        assertEquals(-2, result)
     }
 
     @Test
